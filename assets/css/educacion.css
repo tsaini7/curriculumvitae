@@ -1,0 +1,44 @@
+#seccion_educacion {
+    display: flex;
+    flex-direction: row;
+}
+
+#educacion_izquierda {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    align-items: center;
+    width: 25%;
+
+}
+
+
+
+#educacion-derecha1 {
+display: flex;
+flex-direction: column;
+width: 70%;
+padding-left: 3rem;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+
+}
+
+#titulos_educacion {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#educacion_izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+#educacion_izquierda h3{
+    margin: 0.8rem 0;
+}

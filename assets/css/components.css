@@ -1,0 +1,38 @@
+/* Componente de seccion */
+
+.seccion {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 4rem;
+    display: flex;
+    box-sizing: border-box;
+    background-color: var(--textlight--color);
+
+}
+
+/* SECCION GLOBAL */
+.seccion_global {
+    display: flex;
+}
+
+/* SECCION IZQUIERDA */
+
+
+/* SECCION DERECHA */
+.seccion_derecha {
+    display: flex;
+    width: 50%;
+    padding-left: 3rem;
+    justify-content: space-around;
+}
+
+.seccion-centro {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    justify-content: center;
+
+}

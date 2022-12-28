@@ -1,0 +1,25 @@
+#ver-mas1, #ver-mas2, #ver-mas3, .btn-exp {
+    font-weight: bold;
+    margin-left:1rem ;
+    justify-content: center;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border: 1px solid var(--gbultrasec-color);
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+#ver-mas1:hover, #ver-mas2:hover, #ver-mas3:hover , .btn-exp:hover {
+    background-color: var(--gbultrasec-color);
+    color: white;
+    transition: 0.2s;
+}
+
+.btn-exp {
+    width: 12rem;
+    background-color: var(--textlight--color);
+    padding: 0.6rem 2rem;
+}

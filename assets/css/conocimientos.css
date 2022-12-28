@@ -1,0 +1,14 @@
+.seccion_global #seccion_conocimientos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#conocimientos_centro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}

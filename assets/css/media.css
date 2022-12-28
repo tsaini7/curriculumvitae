@@ -1,0 +1,149 @@
+@media  (max-width:960px) {
+    .main {
+        position: inherit;
+    }
+    
+    .menu {
+        flex-direction: column;
+
+    }
+
+    .menu__titulo_icons {
+        display: none;
+    }
+    .menu__menu--list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin-bottom: 1rem;
+    }
+    .menu__menu--list li {
+        text-align: center;
+        margin: 3px 0px;
+        font-weight: 100;
+        padding: 0 1px;
+    }
+
+    .menu__menu {
+        margin-top: 10px;
+    }
+
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .presentacion_global {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentacion_descripcion {
+        padding-top: 1rem;
+        text-align: left;
+    }
+
+    .foto__principal {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .presentacion__derecha {
+        padding: 0 0;
+    }
+
+    .conteiner {
+        margin: 1rem 0 5px 0;
+    }
+
+    .presentacion__titulo {
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer {
+    padding: 1rem;
+    margin: 5px 0 ;
+    }
+
+    #subir {
+        text-align: center;
+        margin: 1rem 0;
+        display: block;
+    }
+
+    #presentacion_datos #presentacion_datos_izquierda{
+        width: 80%;
+        align-items:flex-start;
+        text-align: left;
+    }
+    
+    #presentacion_datos #presentacion_datos_izquierda span{
+        font-weight: bold;
+    }
+    
+    .seccion {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        padding: 1rem 4rem;
+        display: flex;
+        box-sizing: border-box;
+        background-color: var(--textlight--color);
+        justify-content: space-around;
+    
+    }
+    #mis-datos, #educacion , #conocimientos, #experiencia{
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+
+    .seccion #seccion_educacion {
+        flex-direction: column;
+    }
+    .seccion #educacion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccion #conocimientos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    #conocimientos_centro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .seccion_global {
+        display: flex;
+        flex-direction: column;
+    }
+    #seccion_experiencia {
+        align-items: center;
+    }
+
+    #botones-centro {
+        width: 100%;
+        align-items: center;
+    }
+    #ver-exp1, #ver-exp2, #ver-exp3  {
+        width: 100%;
+}
+}

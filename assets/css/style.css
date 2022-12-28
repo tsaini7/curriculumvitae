@@ -1,0 +1,257 @@
+:root {
+    --bg-color: #DFDFEB;
+    --text-color: #213374;
+    --bgultra--color: #27232D;
+    --textlight--color: #BFDFD9;
+    --gbultrasec-color: #3f374c;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--bgultra--color);
+
+}
+
+body {
+    margin: 1rem 4rem;
+
+
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+}
+
+.main__titulo {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--textlight--color);
+    text-decoration: underline;
+
+}
+
+
+.menu {
+    margin: 0 1rem;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 1rem 1rem 0 0 ; 
+    flex-wrap: wrap;
+    background-color: var(--textlight--color);
+}
+
+
+
+.menu__titulo {
+    padding: 1rem 2rem;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--bgultra--color);
+}
+.menu__titulo_icons a {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+    color: var(--text-color)
+}
+
+.bi-github {
+    color: red;
+}
+.menu__menu--list {
+    display: flex;
+    list-style: none;
+}
+
+.menu__menu--list li {
+    margin: 1rem;
+
+}
+.menu__menu--list li:hover {
+    color: var(--text-color);
+    text-decoration: underline;
+    
+}
+
+
+
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 4rem;
+    display: flex;
+    box-sizing: border-box;
+/*     border: 1px solid var(--text-color);
+    border-radius: 1rem; */
+    background-color: var(--textlight--color);
+
+}
+.presentacion_global {
+    display: flex;
+}
+.presentacion__izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacion_icons {
+    display: flex;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+.bi-linkedin {
+    color: var(--text-color);
+}
+
+.presentacion_titulo_titulo {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0;
+    border-bottom: 3px solid var(--bgultra--color) ;
+    margin-bottom: 2rem;
+}
+
+.presentacion_titulo_titulo2 {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0;
+    border-bottom: 2px solid var(--bgultra--color) ;
+    margin-bottom: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+.presentacion__titulo {
+    color: var(--bgultra--color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+.presentacion__titulo2 {
+    color: var(--bgultra--color);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+.presentacion_descripcion {
+    text-align: center;
+
+}
+
+.presentacion__derecha {
+    display: flex;
+    width: 50%;
+    padding-left: 3rem;
+    justify-content: space-around;
+}
+.foto__principal {
+    padding-top: 1rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+#subir {
+    text-align: center;
+    margin: 5rem 0;
+    display: none;
+    font-weight: bold;
+}
+
+#presentacion_datos #presentacion_datos_izquierda{
+    align-items:flex-start;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#presentacion_datos #presentacion_datos_izquierda span{
+    font-weight: bold;
+}
+
+
+
+
+
+
+.footer {
+    box-sizing: border-box;
+    border-radius: 0 0 1rem 1rem ; 
+    background-color: var(--textlight--color);
+    text-align: center;
+    padding: 1rem;
+    margin: 0.4rem 1rem 0 1rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+/* 
+#presentacion {
+    opacity: 0;
+    transform: translateY(-30%);
+    transition: .5s ease-in-out all;
+
+
+}
+#mis-datos {
+    opacity: 0;
+    transform: translateY(-30%);
+    transition: .5s ease-in-out all;
+
+
+}
+
+#presentacion.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+#mis-datos.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ocultar {
+    display: none;
+}
+
+.flex {
+    display: flex;
+} */
+
+
+
+/* EXPERIENCIA */ 
+
+#experiencia-derecha1 {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
