@@ -84,7 +84,9 @@ body {
 }
 
 
+/*ACA TERMINAN ESTILOS DEL MENU */
 
+/*ESTILOS DE LA PRESENTACION*/
 
 .presentacion {
     display: flex;
@@ -198,7 +200,7 @@ body {
 
 
 
-
+/*HASTA ACA ESTILOS DE PRESENTACION */
 
 
 .footer {
@@ -212,38 +214,6 @@ body {
     font-size: 0.7rem;
 }
 
-/* 
-#presentacion {
-    opacity: 0;
-    transform: translateY(-30%);
-    transition: .5s ease-in-out all;
-
-
-}
-#mis-datos {
-    opacity: 0;
-    transform: translateY(-30%);
-    transition: .5s ease-in-out all;
-
-
-}
-
-#presentacion.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-#mis-datos.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.ocultar {
-    display: none;
-}
-
-.flex {
-    display: flex;
-} */
 
 
 
